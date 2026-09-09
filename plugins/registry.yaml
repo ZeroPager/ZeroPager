@@ -1,0 +1,12 @@
+# Bastion 自定义格式；不是工具原生插件清单。
+schema_version: 1
+plugins:
+  - id: local-toolkit
+    enabled: false
+    description: 自有插件占位，填入实际包后再启用
+    tools: [codex, claude, cursor]
+    source:
+      type: local
+      path: plugins/local/toolkit
+    version: null
+    sha256: null

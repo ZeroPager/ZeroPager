@@ -1,0 +1,8 @@
+# 禁用项允许引用尚未落地的载荷，启用前必须补齐。
+schema_version: 1
+servers:
+  - id: internal-docs
+    enabled: false
+    tools: [codex, claude, cursor]
+    config: mcp/configs/internal-docs.example.yaml
+    required_env: [BASTION_DOCS_TOKEN]

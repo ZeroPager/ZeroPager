@@ -1,0 +1,42 @@
+# 本机配置与离线载荷，只保留职责说明
+/local/**
+!/local/README.md
+/vendor/**
+!/vendor/README.md
+
+# 凭据与环境文件
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+auth.json
+
+# 运行状态与生成结果
+**/.codex/
+**/.claude/
+**/.cursor/
+**/sessions/
+**/cache/
+*.db
+*.db-*
+*.sqlite*
+*.log
+/dist/
+/build/
+/backups/
+/tmp/
+node_modules/
+__pycache__/
+.venv/
+
+# 编辑器与系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.bak

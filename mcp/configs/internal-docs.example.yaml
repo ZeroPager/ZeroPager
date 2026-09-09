@@ -1,0 +1,12 @@
+# Bastion 中间描述示例，不能直接运行。
+schema_version: 1
+transport: stdio
+command: REPLACE_WITH_LOCAL_EXECUTABLE
+args: []
+env:
+  DOCS_TOKEN:
+    from_env: BASTION_DOCS_TOKEN
+offline:
+  artifact: vendor/mcp/internal-docs
+  version: null
+  sha256: null

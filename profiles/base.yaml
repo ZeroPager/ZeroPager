@@ -1,0 +1,13 @@
+schema_version: 1
+name: base
+description: 日常开发基础配置
+tools: [codex, claude, cursor]
+rules: [rules/common.md, rules/shell.md]
+skills: [skills/deployment-review]
+memory: [memory/index.md, memory/user.md]
+plugins: []
+mcp: []
+network:
+  allow_downloads: false
+artifacts:
+  directory: vendor

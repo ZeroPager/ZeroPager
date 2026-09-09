@@ -1,0 +1,13 @@
+schema_version: 1
+name: delivery-offline
+description: Kubernetes 私有化与离线交付
+tools: [codex, claude, cursor]
+rules: [rules/common.md, rules/shell.md, rules/kubernetes.md, rules/sre.md]
+skills: [skills/deployment-review]
+memory: [memory/index.md, memory/user.md]
+plugins: []
+mcp: []
+network:
+  allow_downloads: false
+artifacts:
+  directory: vendor
